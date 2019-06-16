@@ -6,22 +6,48 @@
 -->
 <html> 
 <head> 
-<title>Hareesh Devarasetty Portfolio</title>	
+<title>Hareesh Devarasetty Portfolio</title>
+<style>
+caption {
+   font-weight: bold;
+   font-size: 1.2em;
+   margin-bottom: 8px;
+}
+table, th, td {
+    border: 1px solid #0d1f2d;
+    border-collapse: collapse;
+    padding: 5px 10px;
+}
+table {
+    width: 90%;
+    margin: auto;
+}
+tr {
+    height: 30px;
+}
+th {
+    background-color: #546a7b;
+    color: #f2eded; 
+}
+tr:nth-child(even) {
+    background-color: #e4c3ad; 
+}
+</style>
+<link href="styles/main.css" rel="stylesheet" type="text/css" />
 </head> 
 
 <body>
 <header>
     <h1>Portfolio for Hareesh Devarasetty</h1>
     </header>
-      <nav>
+      <nav class="border">
             <p><a href="projects.html">Projects</a></p>
             <p><a href="contact.html">Contact Me</a></p>
             <p><a href="testimonials.html">Testimonials</a></p>
-            <div class="clear-float"></div>
         </nav>
  
    <section>
-   <article id="about"> 
+   <article class="border "id="about"> 
     <h2><em>About Me</em></h2> 
     <img src="images/0.jpeg" alt="Portrait of Hareesh Picture" />
     <p>I currently drive development of Enterprise Software solutions related to <strong>Financial Risk
@@ -79,6 +105,9 @@
     </ul>
    </article>
    </section>
-   
+              <footer> <!-- The footer is a block at the bottom of the page. -->
+                <hr />
+                <p>&copy; 2020 Hareesh Devarasetty. All rights reserved.</p>
+            </footer>
 </body> 
 </html
